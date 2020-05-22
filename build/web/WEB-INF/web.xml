@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>HomeCotroller</servlet-name>
+        <servlet-class>controller.HomeCotroller</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MenuController</servlet-name>
+        <servlet-class>controller.MenuController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InfoController</servlet-name>
+        <servlet-class>controller.InfoController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ArticleDetailController</servlet-name>
+        <servlet-class>controller.ArticleDetailController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HomeCotroller</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MenuController</servlet-name>
+        <url-pattern>/menu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InfoController</servlet-name>
+        <url-pattern>/findUs</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ArticleDetailController</servlet-name>
+        <url-pattern>/detail</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

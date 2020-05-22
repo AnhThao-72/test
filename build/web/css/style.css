@@ -1,0 +1,200 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 18, 2020, 10:07:58 PM
+    Author     : PhatKa
+*/
+
+body{
+    margin: 0 auto;
+    background: pink;
+    background-repeat: no-repeat;
+    background-color: #d5f46b;
+}
+
+.container{
+    background-color: white;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+}
+
+.header{
+    background-color: #666666;
+    height: 150px;
+    margin-top: -21px;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #d5f46b;
+    padding-left: 20px;
+}
+
+h3{
+    color: white;
+    margin-top: -23px;
+    padding-left: 20px;
+}
+
+.menu{
+    background-color: #333333;
+    margin-top: -19px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menuItem{
+    padding-left: 20px;
+}
+
+.imgSushi{  
+    padding-bottom: 50px;
+    border-radius: 20px;
+    border-top: 3px black dotted;
+}
+
+.bodyy{
+    display: flex;
+}
+
+.contact{
+    width: 30%;
+}
+
+.contactItem{
+    width: 60%;
+    padding-left: 46px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.content{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 60%;
+}
+.resInfor{
+    float:left;
+    width: 100%;
+    margin-top: 5px;
+    padding-bottom: auto;
+    border-bottom: dotted 3px #DEDEDE;
+    font-size: 18px;
+}
+.left{
+    width: 45%;
+    float:left;
+    margin: 5px;
+    word-break: break-all;
+    clear: left;
+}
+.right{
+    float:left;
+    margin-top: 5px;
+    padding-left: 80px;
+}
+.contentItem{
+    padding-left: 15px;
+}
+
+.image{
+    padding-bottom: 20px;
+    border-radius: 20px;
+    width: 100%;
+    
+}
+
+.row1{
+    padding-top: 10px;
+    border-top: 1px black #DEDEDE ;
+    border-bottom: 1px black solid;
+    padding-bottom: 5px;
+}
+
+.row2{
+    border-top: 1px black #DEDEDE ;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: dotted 3px #DEDEDE;
+}
+
+.address{
+    border-bottom: 3px black dotted; 
+}
+
+.map{
+    margin-top: 20px;
+    border-bottom: 3px black dotted; 
+}
+
+.footer{
+    display: flex;
+    border-top: 2px black solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer a{
+    padding-left: 20px;
+}
+
+.number{
+    margin-left: 685px;
+}
+
+.page hover{
+    background-color: red;
+}
+.page{
+    font-size: 25px;
+    margin-left: 425px;
+}
+
+.curIndex{
+    color: red;
+}
+
+.err{
+    background-color: white;
+    width: 70%;
+}
+
+.error{
+    color: red;
+    font-size: 30px;
+    margin-left:50px;
+    margin-top: 50px;
+}
+
+.return a{
+    font-size: 30px;
+    margin-left: 200px;
+}
+.contentDetail{
+    font-size: 40px;
+    width: 100%;
+    float: none;
+}
+.rowDetail{
+    width: 100%
+}
+.imageDetail{
+  width: 30%;
+  flo.articleImg{at: left;
+  padding-right: 13px;
+  padding-bottom: 1px;
+}
+
